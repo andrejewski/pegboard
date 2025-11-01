@@ -1,2 +1,3 @@
-# pegboard
-Peg solitary
+# Pegboard
+
+The classic peg solitaire but made by me.
