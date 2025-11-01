@@ -145,7 +145,9 @@ function App() {
                     const hasPeg = model.board[index]
                     if (hasPeg) {
                       const picked = model.pick === index
-                      const isPickOption = model.pickOptions.includes(index)
+                      const isPickOption =
+                        model.pick === undefined &&
+                        model.pickOptions.includes(index)
                       onClick =
                         isPickOption || picked
                           ? handleClick.bind(null, index)
